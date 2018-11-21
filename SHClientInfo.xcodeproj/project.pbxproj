@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48F2CC6721A448D1006A6A26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CC6621A448D1006A6A26 /* AppDelegate.m */; };
-		48F2CC6A21A448D1006A6A26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CC6921A448D1006A6A26 /* ViewController.m */; };
 		48F2CC6D21A448D1006A6A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F2CC6B21A448D1006A6A26 /* Main.storyboard */; };
 		48F2CC6F21A448D2006A6A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F2CC6E21A448D2006A6A26 /* Assets.xcassets */; };
 		48F2CC7221A448D2006A6A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F2CC7021A448D2006A6A26 /* LaunchScreen.storyboard */; };
 		48F2CC7521A448D2006A6A26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CC7421A448D2006A6A26 /* main.m */; };
 		48F2CC7F21A448D2006A6A26 /* SHClientInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CC7E21A448D2006A6A26 /* SHClientInfoTests.m */; };
 		48F2CC8A21A448D2006A6A26 /* SHClientInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CC8921A448D2006A6A26 /* SHClientInfoUITests.m */; };
+		48F2CCA221A4492F006A6A26 /* SHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CC9A21A4492F006A6A26 /* SHViewController.m */; };
+		48F2CCA321A4492F006A6A26 /* SHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CCA121A4492F006A6A26 /* SHAppDelegate.m */; };
+		48F2CCA621A44F17006A6A26 /* SHInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CCA521A44F17006A6A26 /* SHInfoModel.m */; };
+		48F2CCA921A45959006A6A26 /* SHDeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CCA821A45959006A6A26 /* SHDeviceInfoManager.m */; };
+		48F2CCAC21A459FE006A6A26 /* SHNetWorkInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CCAB21A459FE006A6A26 /* SHNetWorkInfoManager.m */; };
+		48F2CCAF21A45A44006A6A26 /* SHBatteryInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CCAE21A45A44006A6A26 /* SHBatteryInfoManager.m */; };
+		48F2CCB221A45AB0006A6A26 /* SHDeviceDataLibrery.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CCB121A45AB0006A6A26 /* SHDeviceDataLibrery.m */; };
+		48F2CCB521A4FD18006A6A26 /* SHClientModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CCB421A4FD18006A6A26 /* SHClientModel.m */; };
+		48F2CCB821A50376006A6A26 /* SHClientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CCB721A50376006A6A26 /* SHClientCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +43,6 @@
 
 /* Begin PBXFileReference section */
 		48F2CC6221A448D1006A6A26 /* SHClientInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHClientInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		48F2CC6521A448D1006A6A26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		48F2CC6621A448D1006A6A26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48F2CC6821A448D1006A6A26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48F2CC6921A448D1006A6A26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48F2CC6C21A448D1006A6A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48F2CC6E21A448D2006A6A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F2CC7121A448D2006A6A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,24 @@
 		48F2CC8521A448D2006A6A26 /* SHClientInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHClientInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F2CC8921A448D2006A6A26 /* SHClientInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHClientInfoUITests.m; sourceTree = "<group>"; };
 		48F2CC8B21A448D2006A6A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F2CC9A21A4492F006A6A26 /* SHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHViewController.m; sourceTree = "<group>"; };
+		48F2CC9B21A4492F006A6A26 /* SHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHViewController.h; sourceTree = "<group>"; };
+		48F2CCA021A4492F006A6A26 /* SHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAppDelegate.h; sourceTree = "<group>"; };
+		48F2CCA121A4492F006A6A26 /* SHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAppDelegate.m; sourceTree = "<group>"; };
+		48F2CCA421A44F17006A6A26 /* SHInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHInfoModel.h; sourceTree = "<group>"; };
+		48F2CCA521A44F17006A6A26 /* SHInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHInfoModel.m; sourceTree = "<group>"; };
+		48F2CCA721A45959006A6A26 /* SHDeviceInfoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHDeviceInfoManager.h; sourceTree = "<group>"; };
+		48F2CCA821A45959006A6A26 /* SHDeviceInfoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHDeviceInfoManager.m; sourceTree = "<group>"; };
+		48F2CCAA21A459FE006A6A26 /* SHNetWorkInfoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHNetWorkInfoManager.h; sourceTree = "<group>"; };
+		48F2CCAB21A459FE006A6A26 /* SHNetWorkInfoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHNetWorkInfoManager.m; sourceTree = "<group>"; };
+		48F2CCAD21A45A44006A6A26 /* SHBatteryInfoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHBatteryInfoManager.h; sourceTree = "<group>"; };
+		48F2CCAE21A45A44006A6A26 /* SHBatteryInfoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHBatteryInfoManager.m; sourceTree = "<group>"; };
+		48F2CCB021A45AB0006A6A26 /* SHDeviceDataLibrery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHDeviceDataLibrery.h; sourceTree = "<group>"; };
+		48F2CCB121A45AB0006A6A26 /* SHDeviceDataLibrery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHDeviceDataLibrery.m; sourceTree = "<group>"; };
+		48F2CCB321A4FD18006A6A26 /* SHClientModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHClientModel.h; sourceTree = "<group>"; };
+		48F2CCB421A4FD18006A6A26 /* SHClientModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHClientModel.m; sourceTree = "<group>"; };
+		48F2CCB621A50376006A6A26 /* SHClientCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHClientCell.h; sourceTree = "<group>"; };
+		48F2CCB721A50376006A6A26 /* SHClientCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHClientCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +122,7 @@
 		48F2CC6421A448D1006A6A26 /* SHClientInfo */ = {
 			isa = PBXGroup;
 			children = (
-				48F2CC6521A448D1006A6A26 /* AppDelegate.h */,
-				48F2CC6621A448D1006A6A26 /* AppDelegate.m */,
-				48F2CC6821A448D1006A6A26 /* ViewController.h */,
-				48F2CC6921A448D1006A6A26 /* ViewController.m */,
+				48F2CC9721A4492F006A6A26 /* Classes */,
 				48F2CC6B21A448D1006A6A26 /* Main.storyboard */,
 				48F2CC6E21A448D2006A6A26 /* Assets.xcassets */,
 				48F2CC7021A448D2006A6A26 /* LaunchScreen.storyboard */,
@@ -130,6 +148,79 @@
 				48F2CC8B21A448D2006A6A26 /* Info.plist */,
 			);
 			path = SHClientInfoUITests;
+			sourceTree = "<group>";
+		};
+		48F2CC9721A4492F006A6A26 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				48F2CC9821A4492F006A6A26 /* Home */,
+				48F2CC9E21A4492F006A6A26 /* Tools */,
+				48F2CC9F21A4492F006A6A26 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		48F2CC9821A4492F006A6A26 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				48F2CC9921A4492F006A6A26 /* Controller */,
+				48F2CC9C21A4492F006A6A26 /* Model */,
+				48F2CC9D21A4492F006A6A26 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		48F2CC9921A4492F006A6A26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48F2CC9B21A4492F006A6A26 /* SHViewController.h */,
+				48F2CC9A21A4492F006A6A26 /* SHViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48F2CC9C21A4492F006A6A26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48F2CCA421A44F17006A6A26 /* SHInfoModel.h */,
+				48F2CCA521A44F17006A6A26 /* SHInfoModel.m */,
+				48F2CCB321A4FD18006A6A26 /* SHClientModel.h */,
+				48F2CCB421A4FD18006A6A26 /* SHClientModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48F2CC9D21A4492F006A6A26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48F2CCB621A50376006A6A26 /* SHClientCell.h */,
+				48F2CCB721A50376006A6A26 /* SHClientCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48F2CC9E21A4492F006A6A26 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				48F2CCA721A45959006A6A26 /* SHDeviceInfoManager.h */,
+				48F2CCA821A45959006A6A26 /* SHDeviceInfoManager.m */,
+				48F2CCAA21A459FE006A6A26 /* SHNetWorkInfoManager.h */,
+				48F2CCAB21A459FE006A6A26 /* SHNetWorkInfoManager.m */,
+				48F2CCAD21A45A44006A6A26 /* SHBatteryInfoManager.h */,
+				48F2CCAE21A45A44006A6A26 /* SHBatteryInfoManager.m */,
+				48F2CCB021A45AB0006A6A26 /* SHDeviceDataLibrery.h */,
+				48F2CCB121A45AB0006A6A26 /* SHDeviceDataLibrery.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		48F2CC9F21A4492F006A6A26 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				48F2CCA021A4492F006A6A26 /* SHAppDelegate.h */,
+				48F2CCA121A4492F006A6A26 /* SHAppDelegate.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +353,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F2CC6A21A448D1006A6A26 /* ViewController.m in Sources */,
+				48F2CCA621A44F17006A6A26 /* SHInfoModel.m in Sources */,
+				48F2CCAF21A45A44006A6A26 /* SHBatteryInfoManager.m in Sources */,
+				48F2CCA221A4492F006A6A26 /* SHViewController.m in Sources */,
 				48F2CC7521A448D2006A6A26 /* main.m in Sources */,
-				48F2CC6721A448D1006A6A26 /* AppDelegate.m in Sources */,
+				48F2CCAC21A459FE006A6A26 /* SHNetWorkInfoManager.m in Sources */,
+				48F2CCA321A4492F006A6A26 /* SHAppDelegate.m in Sources */,
+				48F2CCB221A45AB0006A6A26 /* SHDeviceDataLibrery.m in Sources */,
+				48F2CCA921A45959006A6A26 /* SHDeviceInfoManager.m in Sources */,
+				48F2CCB521A4FD18006A6A26 /* SHClientModel.m in Sources */,
+				48F2CCB821A50376006A6A26 /* SHClientCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

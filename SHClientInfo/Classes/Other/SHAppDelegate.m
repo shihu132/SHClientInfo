@@ -6,18 +6,27 @@
 //  Copyright © 2018年 石虎. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "SHAppDelegate.h"
+#import "SHViewController.h"
 
-@interface AppDelegate ()
+@interface SHAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation SHAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self makeWindow];
     return YES;
+}
+
+- (void)makeWindow{
+    SHViewController *mainVC = [[SHViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:mainVC];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
 }
 
 
